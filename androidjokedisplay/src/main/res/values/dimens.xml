@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_joke_size">16sp</dimen>
+    <dimen name="tv_margin_horizontal">16dp</dimen>
+    <dimen name="tv_margin_vertical">16dp</dimen>
+</resources>
