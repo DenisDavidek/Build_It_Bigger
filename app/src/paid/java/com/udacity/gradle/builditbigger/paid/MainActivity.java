@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements ProgressBarVisibi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loadingProgressBar = (ProgressBar) findViewById(R.id.progressBar);
-        Toast.makeText(getApplicationContext(), "free variant", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "paid variant", Toast.LENGTH_SHORT).show();
 /*        mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
 
