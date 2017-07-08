@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity implements ProgressBarVisibi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loadingProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        Toast.makeText(getApplicationContext(), "free variant", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(getApplicationContext(), "free variant", Toast.LENGTH_SHORT).show();
         requestNewInterstitialAd();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ProgressBarVisibi
     }
 
     public void getJokes() {
-        new EndpointsAsyncTask(this).execute(new Pair<Context, String>(getApplicationContext(), "1"));
+        new EndpointsAsyncTask(this).execute(new Pair<Context, String>(getApplicationContext(), "Denis"));
     }
 
     @Override
