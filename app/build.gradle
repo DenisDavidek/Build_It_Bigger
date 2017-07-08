@@ -37,8 +37,8 @@ dependencies {
     compile project(':javajokes')
     compile project(':androidjokedisplay')
     compile 'com.android.support:appcompat-v7:25.0.0'
-  compile 'com.google.android.gms:play-services-ads:9.8.0'
-   /* compile 'com.google.android.gms:play-services:8.4.0'*/
+  freeCompile 'com.google.android.gms:play-services-ads:9.8.0'
+   paidCompile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile group: 'com.google.api-client', name: 'google-api-client', version: '1.22.0'
