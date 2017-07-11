@@ -15,7 +15,8 @@ public class JokerTeller {
 
     public String tellJoke() {
 
-        int position = random.nextInt(6 - 0 + 1) + 0;
+       // int position = random.nextInt(6 - 0 + 1) + 0;
+        int position = random.nextInt(jokesList.size()-1);
         return jokesList.get(position);
     }
 
