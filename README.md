@@ -1,3 +1,38 @@
+# Build It Bigger
+
+Build It Bigger is an Android app which tells jokes. This app is created with multiple flavors that uses multiple libraries and Google Cloud Endpoints. This is a Project 4 (**Gradle for Android and Java Final Project**) of [Udacity's Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801).
+
+**This app:**
+
+- Uses Gradle to build the app
+- Contains custom java library which provides jokes and Google Cloud Endpoints (GCE) that serves jokes from that library
+- Contains an android Library with an activity for displaying jokes
+- Available in Free and Paid Flavors
+- Displays AdMob's Interstitial Ads in free flavor
+
+# Screenshots
+
+<img src="images/Projekt4-N5X1.png" width="284"> </img> <img src="images/Projekt4-N5X2.png" width="284"> </img> <img src="images/Projekt4-N5X3.png" width="284"> </img>
+  
+
+# Developer Setup
+
+Clone or download this repository.
+
+## Requirements
+- Java
+- Latest version of Android Studio, Android Build Tools, Gradle
+
+## How to run
+
+1. Choose a backend configuration and run it
+2. Choose and run an app configuration
+
+# Author
+
+[Denis Dávidek](https://github.com/DenisDavidek)
+
+
 # Gradle for Android and Java Final Project
 
 In this project, you will create an app with multiple flavors that uses
@@ -14,7 +49,7 @@ behavior of the Gradle build tool, allowing automation of repetitive tasks.
 Particularly, factoring functionality into libraries and creating product
 flavors allow for much bigger projects with minimal added complexity.
 
-##What Will I Learn?
+## What Will I Learn?
 
 You will learn the role of Gradle in building Android Apps and how to use
 Gradle to manage apps of increasing complexity. You'll learn to:
@@ -26,7 +61,7 @@ Gradle to manage apps of increasing complexity. You'll learn to:
 * Use the Gradle App Engine plugin to deploy a backend
 * Configure an integration test suite that runs against the local App Engine development server
 
-##How Do I Complete this Project?
+## How Do I Complete this Project?
 
 ### Step 0: Starting Point
 
