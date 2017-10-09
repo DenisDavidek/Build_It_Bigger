@@ -10,6 +10,11 @@ Build It Bigger is an Android app which tells jokes. This app is created with mu
 - Available in Free and Paid Flavors
 - Displays AdMob's Interstitial Ads in free flavor
 
+**Technologies used inside this project**
+- [Google Cloud Endpoints](https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/master/HelloEndpoints)
+- [Espresso](https://developer.android.com/training/testing/espresso/index.html)
+- [AdMob](https://github.com/googleads/googleads-mobile-android-examples/tree/master/admob)
+
 # Screenshots
 
 <img src="images/Projekt4-N5X1.png" width="284"> </img> <img src="images/Projekt4-N5X2.png" width="284"> </img> <img src="images/Projekt4-N5X3.png" width="284"> </img>
