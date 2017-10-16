@@ -2,7 +2,7 @@
 
 Build It Bigger is an Android app which tells jokes. This app is created with multiple flavors that uses multiple libraries and Google Cloud Endpoints. This is a Project 4 (**Gradle for Android and Java Final Project**) of [Udacity's Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801).
 
-**This app:**
+## This app:
 
 - Uses Gradle to build the app
 - Contains custom java library which provides jokes and Google Cloud Endpoints (GCE) that serves jokes from that library
@@ -10,7 +10,7 @@ Build It Bigger is an Android app which tells jokes. This app is created with mu
 - Available in Free and Paid Flavors
 - Displays AdMob's Interstitial Ads in free flavor
 
-**Technologies used inside this project**
+## Technologies used inside this project
 - [Google Cloud Endpoints](https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/master/HelloEndpoints)
 - [Espresso](https://developer.android.com/training/testing/espresso/index.html)
 - [AdMob](https://github.com/googleads/googleads-mobile-android-examples/tree/master/admob)
